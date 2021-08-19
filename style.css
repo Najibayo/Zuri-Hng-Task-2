@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=STIX+Two+Text:wght@700&family=Space+Grotesk:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'STIX Two Text', serif; */
+h1 {
+    color: hsl(210, 4%, 67%);
+}
+span, p, li {
+    font-weight: 700;
+}
+.imgProfile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+img {
+    width:7rem;
+    height:7rem;
+    border-radius: 50%;
+}
+#name {
+    margin-top: 1rem;
+    color: #000;
+}
+
+#role {
+    margin-top: 0.5rem;
+    color: hsl(210, 4%, 67%);
+}
+
+.info {
+    display:flex;
+    margin-top: 3.5em;
+    justify-content: center;
+
+}
+/* .firsthalf {
+    margin-left:7rem;
+} */
+.line {
+    border: solid 1px hsl(210, 4%, 67%);;
+}
+.secondhalf {
+    margin-left:3rem;
+}
+ul {
+    list-style-type: none;
+}
+
+.profile {
+    width: 200px;
+}
+.infoHead {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
