@@ -148,11 +148,16 @@ footer {
 
 
 
-@media screen and (max-width:521px){
+@media screen and (max-width:521px ){
  .wrapper {
-    background-image: linear-gradient(to bottom right, white, hsl(210, 4%, 67%));
-    background-repeat: no-repeat;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  .info {
@@ -164,5 +169,12 @@ footer {
  .secondhalf {
     margin-left:0;
 }
+#zuri {
+    margin-left:0;
+}
+#link {
+    text-align: center;
+}
     
 }
+
