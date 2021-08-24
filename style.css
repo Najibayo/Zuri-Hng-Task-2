@@ -20,7 +20,7 @@
     margin-top: 20px;
 }
 header {
-    position: absolute;
+    position: relative;
 }
 
 #hng {
@@ -40,7 +40,6 @@ header {
 #link {
     position: absolute;
     right: 2.5rem;
-    top: 1.8rem;
 }
 
 main {
@@ -86,7 +85,7 @@ img {
 }
 
 .line {
-    border: solid 1px hsl(210, 4%, 67%);;
+    border: solid 1px hsl(210, 4%, 67%);
 }
 .firsthalf {
     min-width: 4rem;
@@ -100,6 +99,10 @@ img {
 }
 ul {
     list-style-type: none;
+}
+#tel {
+    text-decoration: none;
+    color:  #800000;
 }
 
 .profile {
