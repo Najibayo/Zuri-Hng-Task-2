@@ -10,6 +10,7 @@
     background-image: linear-gradient(to bottom right, white, #87ceeb);
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
 }
 
 #zuri {
@@ -17,6 +18,9 @@
     height: 40px;
     margin-left: 20px;
     margin-top: 20px;
+}
+header {
+    position: absolute;
 }
 
 #hng {
@@ -32,11 +36,13 @@
     margin-left: 2px;
     margin-top: 20px;
 }
+
 #link {
-    margin-top: 25px;
-    float: right;
-    margin-right: 30px;
+    position: absolute;
+    right: 2.5rem;
+    top: 1.8rem;
 }
+
 main {
     display: flex;
     align-items: center;
@@ -106,8 +112,10 @@ ul {
     font-size: 25px;
 }
 footer {
-    margin-left: 2rem;
-    color: hsl(210, 4%, 67%);;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+
 }
 
 
@@ -156,8 +164,10 @@ footer {
 }
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
 }
 
  .info {
@@ -174,6 +184,9 @@ header {
 }
 #link {
     text-align: center;
+}
+footer {
+    bottom: 0;
 }
     
 }
